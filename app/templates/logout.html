@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S3 Enryption</title>
+</head>
+<body>
+Logged in <br />
+<form action="/s3_proxy/logout" method="GET">
+    {% csrf_token %}
+    <input type="submit" value="Log out">
+</form>
+</body>
+</html>
